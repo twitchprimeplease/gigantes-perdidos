@@ -176,6 +176,7 @@ model-viewer > #ar-prompt > img {
   transform: unset;
   pointer-events: auto;
   z-index: 100;
+  display: none;
 }
 
 .dot{
