@@ -1,0 +1,15 @@
+<model-viewer src="CZI-P048_baked.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-252.5deg 53.92deg 2.207m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.19470236196428337m 0.37152007407624155m -0.023570148742240837m" data-normal="0.31802760736621416m 0.3469745956465875m -0.8823078096270079m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cuarto molar de mastodonte
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>

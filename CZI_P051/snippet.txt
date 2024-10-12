@@ -1,0 +1,14 @@
+<model-viewer src="CZI-P051_baked.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-586.9deg 70.73deg 2.766m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.038288894588339686m 0.3680947050349126m 0.11997678242874166m" data-normal="0.33663716244680914m 0.40627682478103955m -0.8494789947406569m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Fragmento de escápula de mastodonte</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
