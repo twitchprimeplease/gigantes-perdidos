@@ -1,0 +1,15 @@
+<model-viewer src="GKS046-bake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="9.288deg 66.34deg 2.113m" field-of-view="22.98deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.06508206264348315m 0.2667209619838843m 0.5187206214627151m" data-normal="0.12658912492876476m 0.8917898384704469m 0.43438010710738595m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Vértebra cervical de mastodonte
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
