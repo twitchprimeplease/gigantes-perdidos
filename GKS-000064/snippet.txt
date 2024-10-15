@@ -1,0 +1,14 @@
+<model-viewer src="GKS064-bake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="24.52deg 56.05deg 3.077m" field-of-view="22.98deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.23633567463333005m 0.40260211775176025m 0.3575198317386703m" data-normal="0.8407729150511462m 0.527984802916848m -0.11972031241713145m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Húmero de caballo</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
