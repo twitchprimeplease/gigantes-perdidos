@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hemimandíbula de perezoso gigante</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="GKS-000056(76)-bake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-106.6deg 78.72deg 1.391m" field-of-view="22.98deg">
+      <button class="Hotspot" slot="hotspot-1" data-position="-0.13687767873058032m 0.13148577805008305m -0.030925413126772883m" data-normal="-0.3172772220354105m 0.9221625670366732m -0.22124955216638525m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Hemimandíbula de perezoso gigante
+          </div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          Míralo en tu espacio
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </body>
+</html>
